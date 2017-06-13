@@ -1,0 +1,22 @@
+footer{
+  margin-top: 40px;
+  padding: 50px 0;
+  background-color: #5cb85c;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom: 0%;
+  margin-top: 50%;
+}
+
+.nav-footer li{
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.footer-icons {
+  text-align: center;
+  margin-top: 40px;
+}
+.footer-icons i{
+  padding-right: 10px;
+}
