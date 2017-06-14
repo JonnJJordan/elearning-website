@@ -1,0 +1,35 @@
+<div class="panel panel-default sign-up sign-up-page">
+    <div class="panel-heading">
+      <h3 class="panel-title">Are you ready to pass your test?</h3>
+    </div>
+    <form (submit) = "register($event)" class="panel-body">
+      <div class="row">
+        <div class="col-md-6">
+          <label>Full Name</label>
+          <input name = "name" [(ngModel)] = "name">
+        </div>
+        <div class="col-md-6">
+          <label>Username</label>
+          <input name = "username" [(ngModel)] = "username">
+        </div>
+      </div>
+      <div class="row row-space">
+        <div class="col-md-12">
+          <label>Email Address</label>
+          <input name = "email" [(ngModel)] = "email">
+        </div>
+      </div>
+      <div class = "row row-space">
+        <div class="col-md-6">
+          <label>Password</label>
+          <input name = "password" [(ngModel)] = "password" type="password">
+        </div>
+        <div class="col-md-6">
+          <label>Repeat the password</label>
+          <input name = "password2" [(ngModel)] = "password2" type="password">
+        </div>
+      </div>
+      <hr/>
+      <button type="submit" class="btn btn-block btn-lg btn-success">Sign up</button>
+    </form>
+  </div>

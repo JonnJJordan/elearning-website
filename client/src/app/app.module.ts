@@ -17,6 +17,9 @@ import { UserService } from './services/user.service';
 import { AuthService } from './services/auth.service';
 import { AuthGuard } from './app.guard';
 import { ProfileComponent } from './components/profile/profile.component';
+import { BasicAlgebraCourseComponent } from './components/basic-algebra-course/basic-algebra-course.component';
+import { IntermediateAlgebraCourseComponent } from './components/intermediate-algebra-course/intermediate-algebra-course.component';
+import { SignupFormComponent } from './components/signup-form/signup-form.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { ProfileComponent } from './components/profile/profile.component';
     FooterComponent,
     SignupComponent,
     SigninComponent,
-    ProfileComponent
+    ProfileComponent,
+    BasicAlgebraCourseComponent,
+    IntermediateAlgebraCourseComponent,
+    SignupFormComponent
   ],
   imports: [
     BrowserModule,
